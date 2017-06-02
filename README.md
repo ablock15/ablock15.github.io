@@ -1,6 +1,6 @@
 # ablock15.github.io
 
-This is Avi Block's personal webpage, created for Comp20 at Tufts University.
+This is Avi Block's personal webpage, created on June 2, 2017 for Comp20 at Tufts University.
 
 All required aspects have been implemented, including index.html, resume.html, bio.html, and stylesheets for all three pages.
 
