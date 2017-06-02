@@ -1,0 +1,26 @@
+.title {
+        font-weight: bold;
+        font-size: 20px;
+        background-color: cyan;
+}
+
+#intro {
+        font-style: italic;
+        font-size: 25px;
+}
+
+#education {
+        color: gray;
+}
+
+#prof_exp {
+        color: gray;
+}
+
+#skillz {
+        color: gray;
+}
+
+#activities {
+        color: gray;
+}
