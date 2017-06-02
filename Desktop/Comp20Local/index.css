@@ -1,0 +1,36 @@
+#name {
+        font-weight: bold;
+        font-size: italic;
+        font-size: 20px;
+        text-align: center;
+}
+
+#pic {
+        position: relative;
+        text-align: center;
+        z-index: 1;
+}
+
+#res_link {
+        position: absolute;
+        text-align: center;
+        line-height: 28px;
+        background-color: white;
+        height: 30px;
+        width: 100px;
+        top: 150px;
+        left: 250px;
+        z-index: 3;
+}
+
+#bio_link {
+        position: absolute;
+        text-align: center;
+        line-height: 28px;
+        background-color: white;
+        height: 30px;
+        width: 100px;
+        top: 200px;
+        left: 250px;
+        z-index: 3;
+}
